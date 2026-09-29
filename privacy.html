@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi — Klaim Engine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p class="crumb"><a href="/">anvaia.my.id</a></p>
+<h1>Kebijakan Privasi</h1>
+<p class="meta">Aplikasi: <strong>DSI Klaim Engine</strong> · berlaku sejak 29 September 2026</p>
+
+<h2>Untuk siapa aplikasi ini</h2>
+<p>DSI Klaim Engine adalah alat pribadi milik Yudi Hartono untuk menyusun klaim penggantian biaya
+perjalanan dinasnya sendiri. Aplikasi ini tidak dibuka untuk umum dan hanya dipakai dengan akun
+Google milik pemiliknya.</p>
+
+<h2>Data yang dibaca</h2>
+<p>Dengan izin baca-saja Gmail (<code>gmail.readonly</code>), aplikasi hanya mengambil email berlabel
+<em>Whoosh</em>, <em>Invoice</em>, dan <em>Reimburse</em>, yaitu tiket, invoice, dan struk perjalanan.
+Email lain tidak diproses. Aplikasi tidak pernah mengirim, mengubah, atau menghapus email.</p>
+
+<h2>Cara data dipakai dan disimpan</h2>
+<ul>
+<li>Rincian transaksi (tanggal, merchant, nominal, rute) dicatat ke berkas laporan klaim milik pemilik di OneDrive.</li>
+<li>Token akses disimpan terenkripsi di server pribadi pemilik, tidak di layanan pihak ketiga.</li>
+<li>Isi bukti dapat dibaca oleh model bahasa (OpenAI) semata untuk mengekstrak rincian transaksi.</li>
+<li>Data tidak dijual, tidak dipakai untuk iklan, dan tidak dibagikan ke pihak lain selain untuk mengajukan klaim atas permintaan pemilik.</li>
+</ul>
+
+<h2>Penggunaan data Google API</h2>
+<p>Penggunaan dan pemindahan informasi yang diterima dari Google API mematuhi
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+termasuk ketentuan Limited Use.</p>
+
+<h2>Mencabut akses</h2>
+<p>Akses dapat dicabut kapan saja di <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<hr>
+<h2 lang="en">English summary</h2>
+<p lang="en">DSI Klaim Engine is a private tool used only by its owner to prepare his own travel-expense claims.
+It requests read-only Gmail access, reads only messages labelled Whoosh, Invoice or Reimburse, and never sends,
+modifies or deletes email. Extracted transaction details are stored in the owner's own OneDrive; tokens are
+stored encrypted on the owner's private server. Data is not sold, used for advertising, or shared with third
+parties. Use of information received from Google APIs adheres to the Google API Services User Data Policy,
+including the Limited Use requirements.</p>
+</main>
+</body>
+</html>
